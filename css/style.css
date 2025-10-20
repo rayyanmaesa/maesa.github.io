@@ -37,7 +37,7 @@ nav { display:flex; justify-content:space-between; align-items:center; padding:1
   /* Background image + overlay */
   background: 
     linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), /* overlay gelap */
-    url('/assets/bg.jpg') center/cover no-repeat; /* ganti sesuai file */
+    url('.../assets/bg.jpg') center/cover no-repeat; /* ganti sesuai file */
 }
 
 /* Canvas wave tetap berada di bawah teks */
@@ -96,3 +96,4 @@ footer { text-align:center; padding:2rem; }
   .menu-toggle { display:block; }
   .hero-content h2 { font-size:2rem; }
 }
+
