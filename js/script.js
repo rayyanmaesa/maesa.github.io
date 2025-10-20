@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
     ctx.clearRect(0,0,canvas.width,canvas.height);
     bars.forEach(bar=>{
       const y = canvas.height - (Math.sin(bar.phase)*bar.height + bar.height);
-      ctx.fillStyle = `#d46509`; // neon ungu
+      ctx.fillStyle = `#d46509`; // warna animasi spektrum
       ctx.fillRect(bar.x, y, canvas.width/barCount*0.6, bar.height);
       bar.phase += bar.speed;
     });
@@ -56,3 +56,4 @@ const navLinks = document.querySelector('.nav-links');
 menuToggle.addEventListener('click', ()=>{
   navLinks.classList.toggle('active');
 });
+
